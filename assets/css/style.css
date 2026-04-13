@@ -1,0 +1,10 @@
+body{
+    background: yellow;
+}
+div{
+    border: 4px solid black;
+    height: 380px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+}
