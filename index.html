@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="assets/vendor/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div>
+        <h1 class="pt-3 text-success">Calculator</h1>
+            <input type="text" id="display" disabled>
+            <br> <br>
+            <button onclick="press('1')" class="btn btn-danger">1</button>
+            <button onclick="press('2')" class="btn btn-secondary">2</button>
+            <button onclick="press('3')" class="btn btn-success">3</button>
+            <button onclick="press('+')" class="btn btn-warning">+</button>
+            <button onclick="press('sqrt(')" class="btn btn-info">√</button>
+             <button onclick="press('log(')" class="btn btn-info">log</button>
+             <button onclick="press('ln(')" class="btn btn-info">ln</button>
+
+            <br> <br>
+            <button onclick="press('4')" class="btn btn-danger">4</button>
+            <button onclick="press('5')" class="btn btn-secondary">5</button>
+            <button onclick="press('6')" class="btn btn-success">6</button>
+            <button onclick="press('-')" class="btn btn-warning">-</button>
+            <button onclick="press('%')" class="btn btn-info">%</button>
+            <button onclick="press('**')" class="btn btn-info">**</button>
+            <button onclick="press('sin(')" class="btn btn-info">sin</button>
+            <br> <br>
+            <button onclick="press('7')" class="btn btn-danger">7</button>
+            <button onclick="press('8')" class="btn btn-secondary">8</button>
+            <button onclick="press('9')" class="btn btn-success">9</button>
+            <button onclick="press('(')" class="btn btn-info">(</button>
+             <button onclick="press(')')" class="btn btn-info">)</button>
+             <button onclick="press('cos(')" class="btn btn-info">cos</button>
+             <button onclick="press('tan(')" class="btn btn-info">tan</button>
+            <br> <br>
+            <button onclick="press('/')" class="btn btn-info">/</button>
+            <button onclick="press('*')" class="btn btn-info">*</button>
+            <button onclick="press('0')" class="btn btn-danger">0</button>
+            <button onclick="calculate()" class="btn btn-primary">=</button>
+                <button onclick="press('.')" class="btn btn-secondary">.</button>
+             <button onclick="clearDisplay()" class="btn btn-dark">C</button>
+             <button onclick="deleteLast()" class="btn btn-light">DEL</button>
+
+        </div>
+        </div>
+<script src="assets/vendor/bootstrap.bundle.js"></script>
+<script src="assets/js/script.js"></script>
+    </body>
+</html>
